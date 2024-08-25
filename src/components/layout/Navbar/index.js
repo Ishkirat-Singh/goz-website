@@ -47,7 +47,7 @@ export const NavbarLinks = ({ responsive = false }) => (
     <Link passHref href="/events">
       <MuiLink>Events</MuiLink>
     </Link>
-    <Button
+    {/* <Button
       component="a"
       href="https://student.globalolympiadzone.co.in/"
       target="_blank"
@@ -56,7 +56,7 @@ export const NavbarLinks = ({ responsive = false }) => (
       variant="contained"
     >
       Student login
-    </Button>
+    </Button> */}
   </Stack>
 );
 

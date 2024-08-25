@@ -29,17 +29,19 @@ const CtaSection = () => {
       >
         <Grid item xs={12} sm={6}>
           <Typography variant="h3">
-            India’s leading no. 1 CUET Revisionary Series &amp; Online Language
-            Olympiad Platform
-          </Typography>
+              Global Olympiad Zone
+              <br />
+              Your Gateway to Language Mastery!
+            </Typography>
+
           <Typography mb={1.5} mt={2} color="GrayText" lineHeight={2}>
             Committing towards the <b>multilingual</b> society and nation <br />
             Give olympiads anywhere, anytime. <br />
-            <b style={{ fontSize: 20 }}>
+            <b style={{ fontSize: 22 }}>
               "Do something drastic - zero wastage of paper!"
             </b>
           </Typography>
-          <Stack direction="row" spacing={2}>
+          {/* <Stack direction="row" spacing={2}>
             <Button
               component="a"
               href="https://student.globalolympiadzone.co.in/"
@@ -71,10 +73,10 @@ const CtaSection = () => {
             >
               Facilitator login
             </Button>
-          </Stack>
+          </Stack> */}
           <Stack mt={5} spacing={4} direction="row">
             <Stack>
-              <Typography variant="h4">1k</Typography>
+              <Typography variant="h4">2k+</Typography>
               <Typography color="GrayText">Students</Typography>
             </Stack>
             <Stack>
@@ -82,7 +84,7 @@ const CtaSection = () => {
               <Typography color="GrayText">Subjects</Typography>
             </Stack>
             <Stack>
-              <Typography variant="h4">100+</Typography>
+              <Typography variant="h4">200+</Typography>
               <Typography color="GrayText">Olympiads</Typography>
             </Stack>
           </Stack>

@@ -9,7 +9,7 @@ const NotificationBar = () => {
         sm: 1,
       }}
       textAlign="center"
-      bgcolor="#F8D471"
+      bgcolor="#FC6F03"
     >
       <Typography variant={isXs ? "body2" : "body1"}>
         2024-2025 Registration has started!{" "}
