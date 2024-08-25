@@ -1,25 +1,24 @@
-import VandanaPic from "./vandana.png";
 import ManvinderPic from "./manvinder-kaur.png";
 import MeenakshiPic from "./meenakshi.png";
 import AnamikaPic from "./anamika.png";
 
 export default [
-  {
-    name: "Ms. Vandana Midha (Principal)",
-    pic: VandanaPic,
-    school: "Sapphire International School",
-    writeup: `Olympiad exams are paramount for every student. It brings out some
-        consequential skills in them. Besides fostering learning, it is
-        the best chance to prepare students for the future. The focal
-        benefit of this exam is it helps students to identify their
-        strengths and weaknesses. Not only this, it augments logical
-        reasoning and critical thinking abilities among all participants.
-        Additionally, these exams assess students’ subject knowledge. It
-        also motivates them to improve their academic scores. It is the
-        best platform where learners ingrain the value of self-belief,
-        confidence and fortitude which help parents and facilitators to
-        gird one’s loins for the competitive future`,
-  },
+  // {
+  //   name: "Ms. Vandana Midha (Principal)",
+  //   pic: VandanaPic,
+  //   school: "Sapphire International School",
+  //   writeup: `Olympiad exams are paramount for every student. It brings out some
+  //       consequential skills in them. Besides fostering learning, it is
+  //       the best chance to prepare students for the future. The focal
+  //       benefit of this exam is it helps students to identify their
+  //       strengths and weaknesses. Not only this, it augments logical
+  //       reasoning and critical thinking abilities among all participants.
+  //       Additionally, these exams assess students’ subject knowledge. It
+  //       also motivates them to improve their academic scores. It is the
+  //       best platform where learners ingrain the value of self-belief,
+  //       confidence and fortitude which help parents and facilitators to
+  //       gird one’s loins for the competitive future`,
+  // },
   {
     name: "Ms. Manvinder Kaur (Principal)",
     pic: ManvinderPic,

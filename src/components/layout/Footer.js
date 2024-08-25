@@ -39,7 +39,7 @@ const Footer = () => {
             </Stack>
             <Stack>
               <Typography fontWeight={700}>+91 8700933955</Typography>
-              <Typography fontWeight={700}>+91 9625517878</Typography>
+              {/* <Typography fontWeight={700}>+91 9625517878</Typography> */}
             </Stack>
           </Grid>
           <Grid
