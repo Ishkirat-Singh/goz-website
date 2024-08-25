@@ -37,9 +37,9 @@ const CtaSection = () => {
           <Typography mb={1.5} mt={2} color="GrayText" lineHeight={2}>
             Committing towards the <b>multilingual</b> society and nation <br />
             Give olympiads anywhere, anytime. <br />
-            <b style={{ fontSize: 22 }}>
+            {/* <b style={{ fontSize: 22 }}>
               "Do something drastic - zero wastage of paper!"
-            </b>
+            </b> */}
           </Typography>
           {/* <Stack direction="row" spacing={2}>
             <Button

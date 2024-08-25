@@ -7,6 +7,7 @@ import PlatformInfo from "../src/components/Homepage/PlatformInfo";
 import Navbar from "../src/components/layout/Navbar";
 import Footer from "../src/components/layout/Footer";
 import NotificationBar from "../src/components/layout/Navbar/NotificationBar";
+import Info from "../src/components/Homepage/Info";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
       <Navbar />
       <NotificationBar />
       <CtaSection />
+      <Info />
       <Features />
       <About />
       <PartnerSchools />
