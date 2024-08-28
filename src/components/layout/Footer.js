@@ -70,6 +70,15 @@ const Footer = () => {
                 <Link passHref href="/subjects/hindi">
                   <MuiLink>Hindi</MuiLink>
                 </Link>
+                <Link passHref href="/subjects/hindi">
+                  <MuiLink>German</MuiLink>
+                </Link>
+                <Link passHref href="/subjects/hindi">
+                  <MuiLink>Spanish</MuiLink>
+                </Link>
+                <Link passHref href="/subjects/hindi">
+                  <MuiLink>Arabic</MuiLink>
+                </Link>
               </Stack>
             </Grid>
             <Grid item xs sm={3}>

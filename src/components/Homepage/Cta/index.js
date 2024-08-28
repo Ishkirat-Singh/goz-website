@@ -76,15 +76,15 @@ const CtaSection = () => {
           </Stack> */}
           <Stack mt={5} spacing={4} direction="row">
             <Stack>
-              <Typography variant="h4">2k+</Typography>
+              <Typography variant="h4">5k+</Typography>
               <Typography color="GrayText">Students</Typography>
             </Stack>
             <Stack>
-              <Typography variant="h4">8+</Typography>
+              <Typography variant="h4">45</Typography>
               <Typography color="GrayText">Subjects</Typography>
             </Stack>
             <Stack>
-              <Typography variant="h4">200+</Typography>
+              <Typography variant="h4">10</Typography>
               <Typography color="GrayText">Olympiads</Typography>
             </Stack>
           </Stack>

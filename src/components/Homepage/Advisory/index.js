@@ -11,7 +11,7 @@ const Advisory = () => {
   const advisory = advisories[currentIdx];
 
   return (
-    <Stack bgcolor="#F8F8F8">
+    <Stack>
       <Container
         maxWidth="lg"
         sx={{

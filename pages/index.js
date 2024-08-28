@@ -8,6 +8,7 @@ import Navbar from "../src/components/layout/Navbar";
 import Footer from "../src/components/layout/Footer";
 import NotificationBar from "../src/components/layout/Navbar/NotificationBar";
 import Info from "../src/components/Homepage/Info";
+import Teacher from "../src/components/Homepage/Teachers";
 
 const Homepage = () => {
   return (
@@ -20,6 +21,7 @@ const Homepage = () => {
       <About />
       <PartnerSchools />
       <Advisory />
+      <Teacher />
       <PlatformInfo />
       <Footer />
     </>

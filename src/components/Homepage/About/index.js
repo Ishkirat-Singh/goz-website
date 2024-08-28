@@ -1,5 +1,6 @@
 import { Avatar, Grid, Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
+import FaceIcon from '@mui/icons-material/Face';
 
 const About = () => {
   return (
@@ -43,12 +44,19 @@ const About = () => {
             }}
             spacing={2}
             direction="row"
+            sx={{
+              borderRadius: '12px',
+              padding: '16px',
+              background: '#E2E2E2'
+            }}
           >
-            <Avatar />
-            <Stack>
+            <Avatar>
+              <FaceIcon />
+            </Avatar>
+            <Stack >
               <Typography>
                 I've used multiple olympiad platforms and I can vouch that GOZ
-                is the best one out there
+                is <strong>the best one out there!</strong>
               </Typography>
               <Typography mt={1}>Abhishek (Student)</Typography>
             </Stack>
