@@ -71,7 +71,7 @@ const PlatformInfo = () => {
             <br /> ● 1.49 million students will register.
             <br /> ● 90 central government universities.
             <br /> ● 24 online exams in one week.
-            <Button
+            {/* <Button
               sx={{
                 px: 5,
                 py: 1.5,
@@ -82,7 +82,7 @@ const PlatformInfo = () => {
               variant="contained"
             >
               Get started
-            </Button>
+            </Button> */}
           </Stack>
         </Grid>
         <Grid
