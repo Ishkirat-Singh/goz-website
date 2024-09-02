@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import Image from "next/image";
 import teachers from "./teachers";
 import Marquee from "react-fast-marquee";
-import FloralBorder from "./images/floral-border.png"; // Adjust the path as necessary
+import FloralBorder from "./images/floral-border.png";
 
 const Teachers = () => {
   return (
@@ -57,7 +57,7 @@ const Teachers = () => {
                     borderRadius: "50%",
                     overflow: "hidden",
                     position: "relative",
-                    zIndex: 1, // Ensure the image is behind the border
+                    zIndex: 1,
                   }}
                 >
                   <Image
@@ -68,8 +68,6 @@ const Teachers = () => {
                     style={{ borderRadius: "50%" }}
                   />
                 </Box>
-
-                {/* Floral Border */}
                 <Box
                   sx={{
                     position: "absolute",
@@ -77,7 +75,7 @@ const Teachers = () => {
                     left: 0,
                     width: "100%",
                     height: "100%",
-                    zIndex: 2, // Bring the border in front
+                    zIndex: 2,
                   }}
                 >
                   <Image
